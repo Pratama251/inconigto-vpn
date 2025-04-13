@@ -5,14 +5,8 @@ minify = true
 workers_dev = true
 
 routes = [
-  { pattern = "chuge.biz.id", custom_domain = true },
   { pattern = "loke.biz.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.chuge.biz.id", custom_domain = true },
-  { pattern = "df.game.naver.com.chuge.biz.id", custom_domain = true },
-  { pattern = "graph.instagram.com.chuge.biz.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.chuge.biz.id", custom_domain = true },
-  { pattern = "support.zoom.us.chuge.biz.id", custom_domain = true },  
-  { pattern = "cache.netflix.com.chuge.biz.id", custom_domain = true },
+  { pattern = "bakri.ac.id.loke.biz.id", custom_domain = true },
   { pattern = "ava.game.naver.com.loke.biz.id", custom_domain = true },
   { pattern = "df.game.naver.com.loke.biz.id", custom_domain = true },
   { pattern = "graph.instagram.com.loke.biz.id", custom_domain = true },
