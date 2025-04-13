@@ -5,18 +5,25 @@ minify = true
 workers_dev = true
 
 routes = [
-  { pattern = "senrea.biz.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.senrea.biz.id", custom_domain = true },
-  { pattern = "df.game.naver.com.senrea.biz.id", custom_domain = true },
-  { pattern = "graph.instagram.com.senrea.biz.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.senrea.biz.id", custom_domain = true },
-  { pattern = "support.zoom.us.senrea.biz.id", custom_domain = true },  
-  { pattern = "cache.netflix.com.senrea.biz.id", custom_domain = true },
+  { pattern = "chuge.biz.id", custom_domain = true },
+  { pattern = "loke.biz.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.chuge.biz.id", custom_domain = true },
+  { pattern = "df.game.naver.com.chuge.biz.id", custom_domain = true },
+  { pattern = "graph.instagram.com.chuge.biz.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.chuge.biz.id", custom_domain = true },
+  { pattern = "support.zoom.us.chuge.biz.id", custom_domain = true },  
+  { pattern = "cache.netflix.com.chuge.biz.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.loke.biz.id", custom_domain = true },
+  { pattern = "df.game.naver.com.loke.biz.id", custom_domain = true },
+  { pattern = "graph.instagram.com.loke.biz.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.loke.biz.id", custom_domain = true },
+  { pattern = "support.zoom.us.loke.biz.id", custom_domain = true },  
+  { pattern = "cache.netflix.com.loke.biz.id", custom_domain = true },
 ]
 
 [[kv_namespaces]]
 binding = "SIREN"
-id = "0e106e0e849c4f4f98b3d86b1121163d"
+id = "b480c32d13d94e9a89fb09052e629ccb"
 [build]
 command = "cargo install -q worker-build && worker-build --release"
 
@@ -25,6 +32,6 @@ build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
 UUID = "bbbbbbbb-cccc-4ddd-eeee-ffffffffffff"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/lekyah/inconigto-vpn/refs/heads/master/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/lekyah/inconigto-vpn/refs/heads/master/web/sub.html"
-LINK_PAGE_URL = "https://raw.githubusercontent.com/lekyah/inconigto-vpn/refs/heads/master/web/link.html"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/ilhamrazer/inconigto-vpn/refs/heads/master/web/index.html"
+SUB_PAGE_URL = "https://raw.githubusercontent.com/ilhamrazer/inconigto-vpn/refs/heads/master/web/sub.html"
+LINK_PAGE_URL = "https://raw.githubusercontent.com/ilhamrazer/inconigto-vpn/refs/heads/master/web/link.html"
