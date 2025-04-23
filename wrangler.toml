@@ -6,7 +6,7 @@ workers_dev = true
 
 routes = [
   { pattern = "buaya.my.id", custom_domain = true },
-  { pattern = "bakri.ac.id.buaya.my.id", custom_domain = true },
+  { pattern = "bakrie.ac.id.buaya.my.id", custom_domain = true },
   { pattern = "ava.game.naver.com.buaya.my.id", custom_domain = true },
   { pattern = "df.game.naver.com.buaya.my.id", custom_domain = true },
   { pattern = "graph.instagram.com.buaya.my.id", custom_domain = true },
